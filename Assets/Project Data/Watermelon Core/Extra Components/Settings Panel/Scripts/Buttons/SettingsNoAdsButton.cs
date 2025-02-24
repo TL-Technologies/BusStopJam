@@ -7,7 +7,7 @@ namespace Watermelon
         public override bool IsActive()
         {
 #if MODULE_IAP
-            return AdsManager.IsForcedAdEnabled();
+          return true;
 #else
             return false;
 #endif
@@ -15,7 +15,6 @@ namespace Watermelon
 
         public override void OnClick()
         {
-            IAPManager.BuyProduct(AdsManager.NO_ADS_PRODUCT_KEY);
 
             // Play button sound
             AudioController.PlaySound(AudioController.Sounds.buttonSound);

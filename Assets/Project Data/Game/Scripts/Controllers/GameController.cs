@@ -140,7 +140,6 @@ namespace Watermelon
             levelSave.ReplayingLevelAgain = false;
             gameController.levelController.AdjustLevelNumber();
 
-            AdsManager.ShowInterstitial(null);
 
             LoadLevel();
         }
@@ -153,7 +152,6 @@ namespace Watermelon
 
             levelSave.ReplayingLevelAgain = true;
 
-            AdsManager.ShowInterstitial(null);
 
             LoadLevel();
         }

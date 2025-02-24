@@ -31,17 +31,7 @@ namespace Watermelon
 
         private TweenCase showHideStoreAdButtonDelayTweenCase;
         private TweenCase hideTween;
-
-        private void OnEnable()
-        {
-            AdsManager.ForcedAdDisabled += ForceAdPurchased;
-        }
-
-        private void OnDisable()
-        {
-            AdsManager.ForcedAdDisabled -= ForceAdPurchased;
-        }
-
+        
         public override void Initialise()
         {
             levelTextScaleAnimation = new UIScaleAnimation(levelText.rectTransform);
@@ -130,14 +120,7 @@ namespace Watermelon
 
         private void ShowAdButton(bool immediately = false)
         {
-            if (AdsManager.IsForcedAdEnabled())
-            {
-                noAdsButton.Show(immediately);
-            }
-            else
-            {
-                noAdsButton.Hide(immediately: true);
-            }
+           
         }
 
         private void HideAdButton(bool immediately = false)

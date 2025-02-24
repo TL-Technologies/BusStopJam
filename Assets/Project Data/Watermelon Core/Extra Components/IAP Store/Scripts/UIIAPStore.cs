@@ -28,7 +28,7 @@ namespace Watermelon.IAPStore
 
         public override void Initialise()
         {
-            IAPManager.SubscribeOnPurchaseModuleInitted(InitOffers);
+           
 
             NotchSaveArea.RegisterRectTransform(safeAreaTransform);
 
@@ -117,11 +117,11 @@ namespace Watermelon.IAPStore
 
 // Changelog
 // v 1.2
-// • Added mobile notch offset support
-// • Added free timer money offer
-// • Added ad money offer
+// ï¿½ Added mobile notch offset support
+// ï¿½ Added free timer money offer
+// ï¿½ Added ad money offer
 // v 1.1
-// • Added offers interface
-// • Offers prefabs renamed
+// ï¿½ Added offers interface
+// ï¿½ Offers prefabs renamed
 // v 1.0
-// • Basic logic
+// ï¿½ Basic logic

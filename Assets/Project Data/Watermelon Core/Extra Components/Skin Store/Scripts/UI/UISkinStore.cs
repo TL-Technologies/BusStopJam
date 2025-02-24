@@ -96,7 +96,7 @@ namespace Watermelon.SkinStore
             closeButton.transform.localScale = Vector3.zero;
             closeButton.DOScale(1, 0.3f).SetEasing(Ease.Type.SineOut);
 
-            coinsForAdsButton.gameObject.SetActive(AdsManager.Settings.RewardedVideoType != AdProvider.Disable);
+            coinsForAdsButton.gameObject.SetActive(false);
             coinsForAdsButton.interactable = true;
             coinsForAdsCurrencyImage.sprite = rewardForAdsCurrency.Icon;
 
@@ -238,24 +238,13 @@ namespace Watermelon.SkinStore
         public void GetCoinsForAdsButton()
         {
             coinsForAdsButton.interactable = false;
-
-            AdsManager.ShowRewardBasedVideo((bool success) =>
+            FloatingCloud.SpawnCurrency(rewardForAdsCurrency.CurrencyType.ToString(), coinsForAdsText.rectTransform, currencyPanel.RectTransform, 20, "", () =>
             {
-                if (success)
-                {
-                    FloatingCloud.SpawnCurrency(rewardForAdsCurrency.CurrencyType.ToString(), coinsForAdsText.rectTransform, currencyPanel.RectTransform, 20, "", () =>
-                    {
-                        CurrenciesController.Add(rewardForAdsCurrency.CurrencyType, SkinStoreController.CoinsForAdsAmount);
+                CurrenciesController.Add(rewardForAdsCurrency.CurrencyType, SkinStoreController.CoinsForAdsAmount);
 
-                        UpdateCurrentPage(true);
+                UpdateCurrentPage(true);
 
-                        coinsForAdsButton.interactable = true;
-                    });
-                }
-                else
-                {
-                    coinsForAdsButton.interactable = true;
-                }
+                coinsForAdsButton.interactable = true;
             });
         }
 

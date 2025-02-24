@@ -154,36 +154,17 @@ namespace Watermelon
             noThanksButton.interactable = false;
             multiplyRewardButton.interactable = false;
 
-            AdsManager.ShowRewardBasedVideo((bool success) =>
+            FloatingCloud.SpawnCurrency(coinsHash, rewardLabel.RectTransform, coinsPanelScalable.RectTransform, 10, "", () =>
             {
-                if (success)
-                {
-                    int rewardMult = 3;
+                CurrenciesController.Add(CurrencyType.Coins, currentReward);
 
-                    noThanksButtonFade.Hide(immediately: true);
-                    multiplyRewardButtonFade.Hide(immediately: true);
+                noThanksText.text = CONTINUE_TEXT;
 
-                    ShowRewardLabel(currentReward * rewardMult, false, 0.3f, delegate
-                    {
-                        FloatingCloud.SpawnCurrency(coinsHash, rewardLabel.RectTransform, coinsPanelScalable.RectTransform, 10, "", () =>
-                        {
-                            CurrenciesController.Add(CurrencyType.Coins, currentReward * rewardMult);
-
-                            noThanksText.text = CONTINUE_TEXT;
-
-                            noThanksButton.interactable = true;
-                            noThanksButton.gameObject.SetActive(true);
-                            noThanksButtonFade.Show();
-                        });
-                    });
-
-                    LivesManager.AddLife();
-                }
-                else
-                {
-                    NoThanksButton();
-                }
+                noThanksButton.interactable = true;
+                noThanksButton.gameObject.SetActive(true);
+                noThanksButtonFade.Show();
             });
+        LivesManager.AddLife();
         }
 
         public void NoThanksButton()

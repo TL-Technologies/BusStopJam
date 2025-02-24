@@ -184,22 +184,8 @@ namespace Watermelon.SkinStore
             // right now result of this method is not used, but otherwise this logic needs to be improved
             else if(product.PurchType == SkinData.PurchaseType.RewardedVideo)
             {
-                AdsManager.ShowRewardBasedVideo((success) =>
-                {
-                    if(success)
-                    {
-                        product.RewardedVideoWatchedAmount++;
-
-                        if(product.RewardedVideoWatchedAmount >= product.Cost)
-                        {
-                            product.IsUnlocked = true;
-                            if (select)
-                                SelectProduct(product);
-                        }
-
-                        storeUI.InitStoreUI();
-                    }
-                });
+                SelectProduct(product);
+            storeUI.InitStoreUI();
             }
 
             return false;
