@@ -157,8 +157,7 @@ namespace Watermelon.BusStop
             EnvironmentBehavior.StartSpawningBusses();
 
             levelTutorial.Initialise(loadedLevelData.TutorialSteps);
-
-            PUController.PowerUpsUIController.OnLevelStarted(levelIndex);
+            
 
             isStageLoaded = true;
 

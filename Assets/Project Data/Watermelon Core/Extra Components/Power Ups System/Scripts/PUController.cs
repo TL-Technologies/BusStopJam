@@ -59,11 +59,7 @@ namespace Watermelon
             }
 
             UIGame gameUI = UIController.GetPage<UIGame>();
-
-            powerUpsUIController = gameUI.PowerUpsUIController;
-            powerUpsUIController.Initialise(this);
-#else
-            Debug.LogError("[PU Controller]: Module Define isn't active!");
+            
 #endif
         }
 
