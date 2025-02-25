@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,6 +34,11 @@ namespace Watermelon.IAPStore
             NotchSaveArea.RegisterRectTransform(safeAreaTransform);
 
             coinsUI.Initialise();
+        }
+
+        private void Update()
+        {
+            gameObject.SetActive(false);
         }
 
         private void InitOffers()

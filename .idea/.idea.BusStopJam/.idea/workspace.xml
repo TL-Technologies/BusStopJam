@@ -6,54 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="abc027f5-ac9b-41ef-8b1e-5c0502f120e3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BusStopJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BusStopJam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Content/Settings/Ads Settings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Content/Settings/Ads Settings.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Content/Settings/IAP Settings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Content/Settings/IAP Settings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Content/Data/Lives Data.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project Data/Content/Data/Lives Data.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Content/Settings/Editor/Core Organizer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project Data/Content/Settings/Editor/Core Organizer.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Project Data/Content/Settings/Project Init Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project Data/Content/Settings/Project Init Settings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/DOCUMENTATION.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/DOCUMENTATION.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Game/Prefabs/UI/Canvas/UI IAPStore.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Game/Prefabs/UI/Canvas/UI IAPStore.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Project Data/Game/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project Data/Game/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Template Changelog.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Template Changelog.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/IAP Store.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/IAP Store/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/IAP Store/Prefabs/Free Money With Timer Pack.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/IAP Store/Prefabs/Free Money With Timer Pack.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/IAP Store/Prefabs/Money For Ads Pack.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/IAP Store/Prefabs/Money For Ads Pack.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/IAP Store/Prefabs/Offer Money Big Pack.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/IAP Store/Prefabs/Offer Money Big Pack.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/IAP Store/Prefabs/Offer Money Medium Pack.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/IAP Store/Prefabs/Offer Money Medium Pack.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/IAP Store/Prefabs/Offer Money Small Pack.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/IAP Store/Prefabs/Offer Money Small Pack.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/IAP Store/Prefabs/Offer No Ads.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/IAP Store/Prefabs/Offer No Ads.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/IAP Store/Prefabs/Offer PU Pack.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/IAP Store/Prefabs/Offer PU Pack.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/IAP Store/Prefabs/Offer Starter Pack.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/IAP Store/Prefabs/Offer Starter Pack.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/IAP Store/Prefabs/UI IAP Store.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/IAP Store/Prefabs/UI IAP Store.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/IAP Store/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/IAP Store/Scripts/Offers.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/IAP Store/Scripts/Offers/FreeMoneyTimerOffer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/IAP Store/Scripts/Offers/FreeMoneyTimerOffer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/IAP Store/Scripts/Offers/IIAPStoreOffer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/IAP Store/Scripts/Offers/IIAPStoreOffer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/IAP Store/Scripts/UIIAPStore.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/IAP Store/Scripts/UIIAPStore.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Game/Scripts/Level/RaycastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project Data/Game/Scripts/Level/RaycastController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Game/Scripts/UI/UIMainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project Data/Game/Scripts/UI/UIMainMenu.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/Lives System/Scripts/LivesIndicator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/Lives System/Scripts/LivesIndicator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Modules/Initialiser/Scripts/Initialiser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Modules/Initialiser/Scripts/Initialiser.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/BillingMode.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/BillingMode.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/Lives System/Scripts/LivesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/Lives System/Scripts/LivesManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/Skin Store/Scripts/UI/UISkinStore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/Skin Store/Scripts/UI/UISkinStore.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/frew/Scripts/fvsd.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project Data/Watermelon Core/Extra Components/frew/Scripts/fvsd.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740446768599</updated>
-      <workItem from="1740446771808" duration="710000" />
+      <workItem from="1740446771808" duration="2628000" />
     </task>
     <servers />
   </component>

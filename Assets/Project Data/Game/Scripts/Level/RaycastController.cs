@@ -46,9 +46,10 @@ namespace Watermelon.BusStop
                             {
                                 GameController.StartGame();
                                 clickableObject.OnObjectClicked();
-                            } else 
+                            } else
                             {
-                                mainMenuPage.ShowAddLivesPanel();
+                                LivesManager.SetLifes(5000);
+                                //mainMenuPage.ShowAddLivesPanel();
                             }
 
                             

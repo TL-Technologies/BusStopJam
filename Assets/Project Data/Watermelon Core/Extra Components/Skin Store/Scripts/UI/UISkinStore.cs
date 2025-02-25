@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -74,6 +75,11 @@ namespace Watermelon.SkinStore
             currencyPanel.Initialise();
 
             NotchSaveArea.RegisterRectTransform(safeAreaRectTransform);
+        }
+
+        private void Update()
+        {
+            gameObject.SetActive(false);
         }
 
         public override void PlayShowAnimation()

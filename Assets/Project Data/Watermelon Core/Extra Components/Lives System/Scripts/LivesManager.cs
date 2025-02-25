@@ -95,7 +95,7 @@ namespace Watermelon
             indicators.Remove(indicator);
         }
 
-        private static void SetLifes(int value)
+        public static void SetLifes(int value)
         {
             save.livesCount = value;
 

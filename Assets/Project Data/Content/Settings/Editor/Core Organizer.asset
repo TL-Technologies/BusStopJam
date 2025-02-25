@@ -32,8 +32,8 @@ MonoBehaviour:
     directory: 
     directories:
     - Development Tools/Methods Executor
-    isDirectoryExist: 01
-    status: Exists
+    isDirectoryExist: 00
+    status: Missing
     include: 1
   - name: Tools/Smart Screenshot Taker
     directory: 
@@ -67,22 +67,22 @@ MonoBehaviour:
     directory: 
     directories:
     - Project Data/Watermelon Core/Extra Components/IAP Module
-    isDirectoryExist: 01
-    status: Exists
-    include: 1
+    isDirectoryExist: 00
+    status: Removed
+    include: 0
   - name: Extra Modules/IAP Store
     directory: 
     directories:
     - Project Data/Watermelon Core/Extra Components/IAP Store
-    isDirectoryExist: 01
-    status: Exists
-    include: 1
+    isDirectoryExist: 00
+    status: Removed
+    include: 0
   - name: Extra Modules/Control System
     directory: 
     directories:
     - Project Data/Watermelon Core/Extra Components/Control System
-    isDirectoryExist: 01
-    status: Exists
+    isDirectoryExist: 00
+    status: Missing
     include: 1
   - name: Extra Modules/Level Map
     directory: 
@@ -110,8 +110,8 @@ MonoBehaviour:
     directories:
     - Project Data/Watermelon Core/Extra Components/Power Ups System
     isDirectoryExist: 01
-    status: Exists
-    include: 1
+    status: To Delete
+    include: 0
   - name: Extra Modules/Settings Panel
     directory: 
     directories:
@@ -124,8 +124,8 @@ MonoBehaviour:
     directories:
     - Project Data/Watermelon Core/Extra Components/Skin Store
     isDirectoryExist: 01
-    status: Exists
-    include: 1
+    status: To Delete
+    include: 0
   - name: Extra Modules/Upgrades
     directory: 
     directories:
@@ -138,5 +138,5 @@ MonoBehaviour:
     directories:
     - Project Data/Watermelon Core/Extra Components/Vibration
     isDirectoryExist: 01
-    status: Exists
-    include: 1
+    status: To Delete
+    include: 0

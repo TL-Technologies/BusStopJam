@@ -45,6 +45,11 @@ namespace Watermelon
             livesCountText.gameObject.SetActive(!isInfinite);
         }
 
+        private void Update()
+        {
+            addButton.gameObject.SetActive(false);
+        }
+
         public void SetLivesCount(int count)
         {
             if (!isInitialised) return;

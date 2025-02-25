@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 using Watermelon.BusStop;
@@ -47,9 +48,17 @@ namespace Watermelon
             noAdsButton.Button.onClick.AddListener(NoAdButton);
             skinsButton.Button.onClick.AddListener(SkinsButton);
 
-            noAdsPopUp.Initialise();
+            //noAdsPopUp.Initialise();
 
             NotchSaveArea.RegisterRectTransform(safeZoneTransform);
+        }
+
+        private void Update()
+        {
+            iapStoreButton.Button.gameObject.SetActive(false);
+            noAdsButton.Button.gameObject.SetActive(false);
+            skinsButton.Button.gameObject.SetActive(false);
+            coinsPanel.AddButton.gameObject.SetActive(false);
         }
 
         #region Show/Hide

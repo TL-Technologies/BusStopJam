@@ -65,8 +65,6 @@ MonoBehaviour:
   - {fileID: -3707581287399739118}
   modules:
   - {fileID: 636860153974001961}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!114 &636860153974001961
 MonoBehaviour:
   m_ObjectHideFlags: 0
