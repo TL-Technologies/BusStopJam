@@ -539,7 +539,7 @@ GameObject:
   - component: {fileID: 6954677659151464543}
   - component: {fileID: 6236411735601606341}
   m_Layer: 5
-  m_Name: UI IAP Store
+  m_Name: fse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

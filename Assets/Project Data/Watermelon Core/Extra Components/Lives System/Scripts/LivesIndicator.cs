@@ -29,7 +29,7 @@ namespace Watermelon
 
             if(addLivesPanel != null)
             {
-                addButton.gameObject.SetActive(true);
+                addButton.gameObject.SetActive(false);
                 addButton.onClick.AddListener(() => addLivesPanel.Show());
             } else
             {

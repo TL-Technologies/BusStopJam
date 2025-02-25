@@ -1954,7 +1954,7 @@ GameObject:
   - component: {fileID: 955240650293367421}
   - component: {fileID: 747699323097452770}
   m_Layer: 5
-  m_Name: UI IAPStore
+  m_Name: ds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

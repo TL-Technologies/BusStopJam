@@ -61,12 +61,12 @@ MonoBehaviour:
   coreModules:
   - {fileID: 3385234563707208356}
   - {fileID: -1404738447185934721}
-  - {fileID: -3707581287399739118}
   - {fileID: -4401664973471492520}
+  - {fileID: -3707581287399739118}
   modules:
   - {fileID: 636860153974001961}
-  - {fileID: 2675950043578897128}
-  - {fileID: 2244391927298088815}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &636860153974001961
 MonoBehaviour:
   m_ObjectHideFlags: 0
